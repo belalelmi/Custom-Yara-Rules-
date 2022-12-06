@@ -6,10 +6,11 @@ rule Hunting_GadgetToJScript_1
         rev = 4
         author = ""
     strings:
-        $s1 = "GF6eU5ldFRvSnNjcmlwdExvYWRl"
-        $s2 = "henlOZXRUb0pzY3JpcHRMb2Fk"
-        $s3 = "YXp5TmV0VG9Kc2NyaXB0TG9hZGV"
+        $s1 = "GF6eU5ldFRvSnNjcmlwdExvYWR2"
+        $s2 = "henlOZXRUb0pzY3JpcHRMb2Fl"
+        $s3 = "YXp5TmV0VG9Kc2NyaXB0TG9hZGB"
     condition:
         any of them
 }
+
 
